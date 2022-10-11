@@ -7,11 +7,11 @@
 
 public class Ejercicio1 {
     public static void main(String args[]){
-        float num1=144;
-        float num2=999;
+        int num1=144;
+        int num2=999;
         System.out.printf("%s+%s=%s\n", num1, num2, num1+num2);
         System.out.printf("%s-%s=%s\n", num1, num2, num1-num2);
         System.out.printf("%sx%s=%s\n", num1, num2, num1*num2);
-        System.out.printf("%s/%s=%s\n", num1, num2, num1/num2);
+        System.out.printf("%s/%s=%s\n", (double)num1, (double)num2, (double)num1/num2);
     }
 }
